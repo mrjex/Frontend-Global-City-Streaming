@@ -35,13 +35,9 @@ const POLLING_INTERVAL = 1000;
 const VARIANCE_PROBABILITY = 0.2;  // 20% chance of applying variance
 const MAX_TEMPERATURE_VARIANCE = 0.5;  // ±0.5°C variance
 
-// Chart colors
+
 const CHART_COLORS = [
-  'hsla(354, 85%, 65%, 0.95)',  // Ruby Red
-  'hsla(190, 90%, 65%, 0.95)',  // Azure Blue
-  'hsla(145, 65%, 60%, 0.95)',  // Emerald Green
-  'hsla(280, 75%, 65%, 0.95)',  // Royal Purple
-  'hsla(35, 85%, 65%, 0.95)'    // Amber Gold
+  'hsla(354, 85%, 65%, 0.95)'
 ];
 
 const CityTemperatureChart: React.FC = () => {
