@@ -20,32 +20,8 @@ This repository is the **frontend submodule** of the [Global City Streaming](htt
 - **Animation:** [Framer Motion](https://www.framer.com/motion/)
 - **Containerization:** Docker
 
-## Features
-
-### 🌍 Interactive World Map
-- Select a country to view its cities, temperature data, and live video feeds.
-- Initial load focuses on Sweden, but any country can be selected.
-
-### 🟢 Real-Time Globe View
-- Visualize all monitored cities (static and dynamic) on a 3D globe.
-- Cities update in real time as data streams in.
-
-### 📊 Production Charts Gallery
-- Explore a variety of real-time and historical charts, including temperature rankings and city comparisons.
-- Custom chart query panel for advanced analytics.
-
-### ⚡ Kafka & Flink Analytics
-- View the status and metrics of the Kafka producer and Flink processor.
-- Inspect Flink logs (raw and database) directly from the UI.
-
-### 🗄️ Live Database Counter
-- Displays the current number of records in the database, updating every 2 seconds.
 
 ## Getting Started
-
-### Prerequisites
-- [Docker](https://www.docker.com/) (recommended for production)
-- [Node.js](https://nodejs.org/) (for local development)
 
 ### Local Development
 
@@ -70,4 +46,4 @@ This repository is the **frontend submodule** of the [Global City Streaming](htt
    docker run -p 3001:3001 global-city-streaming-frontend
    ```
 
-The frontend expects backend services (API, Kafka, Flink, database) to be available as described in the [Global City Streaming](https://github.com/mrjex/Global-City-Streaming) main repository.
+This frontend system component expects backend services ([City API](https://github.com/mrjex/City-API-Global-City-Streaming), [Kafka Producer](https://github.com/mrjex/Kafka-Producer-Global-City-Streaming), [Flink Processor](https://github.com/mrjex/Flink-Processor-Global-City-Streaming)) to be available as described in the [Global City Streaming](https://github.com/mrjex/Global-City-Streaming) main repository.
