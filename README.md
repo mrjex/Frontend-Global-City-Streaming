@@ -16,23 +16,7 @@ This repository is the **frontend submodule** of the [Global City Streaming](htt
 ## Getting Started
 
 <details>
-  <summary>Click to expand</summary>
-
-  This content is hidden until the user clicks the summary.
-
-  - You can include **Markdown** here
-  - Lists, images, code blocks, etc.
-
-   ## Local Development
-
-   Text
-
-
-</details>
-
-
-
-### Local Development
+  <summary>Localhost</summary>
 
 1. **Install dependencies:**
    ```bash
@@ -42,7 +26,13 @@ This repository is the **frontend submodule** of the [Global City Streaming](htt
    ```bash
    npm run dev
    ```
-   The app will be available at [http://localhost:3001](http://localhost:3001).
+The app will be available at [http://localhost:3001](http://localhost:3001)
+
+</details>
+
+
+
+
 
 ### Docker Deployment
 
