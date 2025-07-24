@@ -15,6 +15,20 @@ This repository is the **frontend submodule** of the [Global City Streaming](htt
 
 ## Getting Started
 
+<details>
+  <summary>Click to expand</summary>
+
+  This content is hidden until the user clicks the summary.
+
+  - You can include **Markdown** here
+  - Lists, images, code blocks, etc.
+
+  ```js
+  console.log("Hello world!");
+
+
+
+
 ### Local Development
 
 1. **Install dependencies:**
