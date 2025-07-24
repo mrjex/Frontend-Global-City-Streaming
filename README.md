@@ -23,9 +23,12 @@ This repository is the **frontend submodule** of the [Global City Streaming](htt
   - You can include **Markdown** here
   - Lists, images, code blocks, etc.
 
-  ```js
-  console.log("Hello world!");
+   ## Local Development
 
+   Text
+
+
+</details>
 
 
 
