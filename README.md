@@ -31,10 +31,8 @@ The app will be available at [http://localhost:3001](http://localhost:3001)
 </details>
 
 
-
-
-
-### Docker Deployment
+<details>
+  <summary>Docker</summary>
 
 1. **Build the Docker image:**
    ```bash
@@ -44,5 +42,8 @@ The app will be available at [http://localhost:3001](http://localhost:3001)
    ```bash
    docker run -p 3001:3001 global-city-streaming-frontend
    ```
+
+</details>
+
 
 This frontend system component expects backend services ([City API](https://github.com/mrjex/City-API-Global-City-Streaming), [Kafka Producer](https://github.com/mrjex/Kafka-Producer-Global-City-Streaming), [Flink Processor](https://github.com/mrjex/Flink-Processor-Global-City-Streaming)) to be available as described in the [Global City Streaming](https://github.com/mrjex/Global-City-Streaming) main repository.
